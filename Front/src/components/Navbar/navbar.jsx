@@ -1,4 +1,3 @@
-// NavbarComponent.js
 import React from "react";
 
 import navcolors from "/nav-colors.png";
