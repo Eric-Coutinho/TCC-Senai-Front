@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import styles from './index.module.css';
+import Button from "../../components/Button/button";
 
 function HomePage() {
     return (
@@ -17,7 +18,10 @@ function HomePage() {
             </Row>
             <Row>
                 <Col>
-                    {/* Denis dj */}
+                    <Button text='cock and ball torture' onClick={() => console.log('penis')}/>
+                </Col>
+                <Col>
+                    <Button text='cock and ball torture 2' type='cancel' onClick={() => console.log('penis')}/>
                 </Col>
             </Row>
         </>
